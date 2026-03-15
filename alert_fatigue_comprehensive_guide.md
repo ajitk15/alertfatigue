@@ -34,9 +34,7 @@ This phenomenon has resulted in **alert fatigue**, where operations teams receiv
 
 **Goal**: Help organizations move from **reactive monitoring** to **intelligent operations**.
 
-intelligent operations**.
-
-------------------------------------------------------------------------
+---
 
 # Evolution of Production and Application Support
 
@@ -65,33 +63,33 @@ Fix deployed
 - ❌ High downtime risk
 - ❌ Limited visibility into system health
 
-------------------------------------------------------------------------
+---
 
-## Network Operations Center (NOC) Era
+## 2. Network Operations Center Era (2000s)
 
-During the early 2000s, organizations introduced **centralized monitoring teams**.
+**Major Innovation**: Centralized monitoring teams with NOC (Network Operations Center)
 
-Key capabilities:
+**Key Capabilities:**
+- 🔍 Infrastructure monitoring via agent-based tools
+- 📊 Centralized dashboards for key metrics
+- 🎫 Ticketing systems for incident tracking
+- 📈 Increased alert volume (but still manageable)
 
--   infrastructure monitoring
--   centralized dashboards
--   ticketing systems
-
-Architecture:
-
-    Infrastructure
+```
+Infrastructure
        ↓
-    Monitoring Tools
+Monitoring Tools
        ↓
-    NOC Team
+NOC Team
        ↓
-    Ticketing System
+Ticketing System
+```
 
-However, these systems relied heavily on **static thresholds**, which led to excessive alerts.
+**Key Challenge**: Heavy reliance on **static thresholds** → excessive alerts
 
-------------------------------------------------------------------------
+---
 
-## DevOps Transformation
+## 3. DevOps Transformation (2009-2015)
 
 Around 2009, the DevOps movement emerged to bridge the gap between development and operations teams.
 
